@@ -1,0 +1,38 @@
+:root{
+    --gray30: #212121;
+    --gray20: #616161;
+    --gray10: #212429;
+}
+.hero{
+    background: url(/images/img-6.jpg);
+   background-repeat: no-repeat;
+   height: 350px;
+   width: 1366px;
+}
+body{
+    background: #2d0303f7;
+}
+*{
+    color: white;
+}
+header a{
+    text-decoration: none;
+}
+header a:hover{
+    color: rgba(57, 125, 212, 0.822);
+}
+.n-1{
+    font-size: 60px;
+}
+h2{
+    font-size: 32px;
+}
+p{
+    color: var();
+}
+header{
+     font-size: 14px;
+     /*background: black;*/
+     width: 1366px;
+     height:350px ;
+}
