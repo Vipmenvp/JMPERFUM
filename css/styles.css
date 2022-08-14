@@ -4,7 +4,7 @@
     --gray10: #212429;
 }
 .hero{
-    background: url(/images/img-6.jpg);
+    background: url(../images/img-6.jpg);
    background-repeat: no-repeat;
    height: 350px;
    width: 1366px;
