@@ -3,6 +3,9 @@
     --gray20: #616161;
     --gray10: #212429;
 }
+html{
+   /* scroll-behavior: smooth;*/
+}
 .hero{
     background-image: url(../images/img-17.jpg);
    background-repeat: no-repeat;
@@ -14,9 +17,10 @@ body{
    /* background: #2d0303f7;*/
    /* background-image: url(../images/img-17.jpg);*/
     background-repeat: no-repeat;
+    background: #232946;
 }
 *{
-    color: black;
+    color: white;
 }
 header a{
     text-decoration: none;
@@ -24,25 +28,48 @@ header a{
 header a:hover{
     color: rgba(57, 125, 212, 0.822);
 }
-.n-1{
+h1{
     font-size: 60px;
+    margin-top: 64px;
+    margin-bottom: 16px;
+    font-weight: normal;
 }
 h2{
     font-size: 32px;
+   
+}
+h3{
+    position: sticky;
+    top: 0;
+    background:#232946 ;
 }
 p{
     color: var();
 }
 header{
      font-size: 14px;
+     width: 188px;
      /*background: black;*/
      /*width: 1366px;
      height:350px ;*/
+    left:-232px;
+    top: 64px;
+     position: absolute;
+     /*border: 1px solid red;/*
+    background: black;
+    /*z-index: auto;*/
+}
+.header{
+    position: sticky;
+    top: 0;
+}
+.header-content{
+    position: relative;
+
+
 }
 .main{
-    /*border: 1px solid wheat;*/
-    /*background: purple;*/
-    background-image: url(../images/img-17.jpg);
+    background:#232946;
  
 }
 .wrapper{
@@ -50,8 +77,8 @@ header{
     margin: auto;
 }
 .main-content{
-    background:white;
-    padding: 20px;
+    background: #232946;
+    /*padding: 20px;*/
 }
 .lol{
 width:100px ;
