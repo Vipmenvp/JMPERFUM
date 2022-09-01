@@ -4,17 +4,19 @@
     --gray10: #212429;
 }
 .hero{
-    background-image: url(../images/img-1.jpg);
+    background-image: url(../images/img-17.jpg);
    background-repeat: no-repeat;
    background-size: 1550px 200%;
    background-position:center 58.6%;
    height: 350px;
 }
 body{
-    background: #2d0303f7;
+   /* background: #2d0303f7;*/
+   /* background-image: url(../images/img-17.jpg);*/
+    background-repeat: no-repeat;
 }
 *{
-    color: white;
+    color: black;
 }
 header a{
     text-decoration: none;
@@ -36,4 +38,51 @@ header{
      /*background: black;*/
      /*width: 1366px;
      height:350px ;*/
+}
+.main{
+    /*border: 1px solid wheat;*/
+    /*background: purple;*/
+    background-image: url(../images/img-17.jpg);
+ 
+}
+.wrapper{
+    width: 902px;
+    margin: auto;
+}
+.main-content{
+    background:white;
+    padding: 20px;
+}
+.lol{
+width:100px ;
+position: relative;
+bottom: 80px;
+left: 145px;
+}
+.lal{
+width: 180px;
+position:relative ;
+left: 80px;
+bottom: 70px;
+}
+.lel{
+    width: 105px;
+    position: relative;
+    left: 5px;
+    bottom: 64px;
+}
+.q1{
+    position: relative;
+    left: 17px;
+
+}
+.q2{
+    position: relative;
+    left: 139px;
+    bottom: 203px;
+}
+.q3{
+    position: relative;
+    left: 248px;
+    bottom: 365px;
 }
